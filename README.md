@@ -2,7 +2,7 @@
 
 ## Raspberry Pi installetion:
 NODE-RED:
-  1) gfd
+  1) bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
   2) in the node-red install:
       * node-red-contrib-mqtt-broker
       * node-red-dashboard    
