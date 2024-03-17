@@ -7,6 +7,8 @@ NODE-RED:
       * node-red-contrib-mqtt-broker
       * node-red-dashboard    
   3) sudo systemsctl enable nodered.service
+
+
 MOSQUITTO:
   1) sudo apt install -y mosquitto mosquitto-clients
   2) sudo nano /etc/mosquitto/mosquitto.conf
