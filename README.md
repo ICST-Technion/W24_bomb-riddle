@@ -1,4 +1,4 @@
-# IOT-bomb-riddle
+/.# IOT-bomb-riddle
 
 ## Raspberry Pi installetion:
 NODE-RED:
