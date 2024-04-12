@@ -1,16 +1,33 @@
-## Pilltrack Project by : Malak Marrid, Mahmoud Massarwi & Zaina Darawsha.
-In this project we have built a smart pill box that makes it easy for patients to track their pill doses over a week (7 days), pill doses times, and to get 
-notified by a smartphone app when the pill times come and when they are late for pills. In addition, a helper of the patient can use the app to see the patient LOG and get notified when the patient is late for pills.
-The smart pill box is responsive, and gives sound and visual notifications to help the patient. 
+## "Deuse The Bomb" puzzle Project by : Daniel Belenky.
+In this proect i have built an IoT-based game. Using an ESP32 microcontroller as its core, the game presents players with a puzzle involving a set of wires that must be unplugged in the correct sequence within a ten-minute time frame. As players manipulate the wires, a buzzer sounds a sequence corresponding to the number of wires unplugged in the correct order, helping the players to solve the puzzle (similar to the famous mastermind board game). Node-RED dashboard offers real-time monitoring and control capabilities. Monitoring the game time, and each wires state (cut/ un-cut) and an MQTT connection status indicating whether the esp32 is connected through MQTT. It also offers control over the game including the ability to adjust the timer, restart the game, and even automatically solve the puzzle if needed.
 
 ## Our Project in details :
-First, the patient and his helper both signup to the app (each on his phone).
-The patient enters the pill times and chooses a "refill day": when the box needs refill after 1 week of use.
-1. Settings: Inside the app, the patient can update the pill times: 2 times per day in which the patient will take his pill doses (2 cells in the box per day) .
-2. Search Box: If the patient forgot where the pill box is, he can press on "search box" botton in the app the that will cause the pill box to light in different colors 
-and make loud continuous sounds to help the patient find the box location.
-3. Reminders: 5 minutes before each pill does time, the patient will get a reminder notification to take his pills. and the suitable cell in the pill box will light in blue to help the patient take the right dose.
-4. Pills taken in time: If the patient took his pills from the right cell, it will light in purple to confirm him that he's done okay, and he will get a "good job notification". There is a virtual pill box in the app that shows the status of each pill dose through the week and it will be updated in the suitable cell with a v mark.
+1) Hardware Components:
+
+ESP32 Microcontroller: This serves as the brain of the operation, controlling the game logic and interacting with other hardware components.
+Timer: A countdown timer implemented using the ESP32 to limit the player's time to solve the puzzle.
+RGB LED: Used to indicate the status of each wire (plugged or unplugged) and provide visual feedback during gameplay.
+Buzzer: Provides auditory feedback to the player, indicating whether they correctly unplugged the wires in the right order.
+Wires: Physical wires connected to the ESP32, representing the elements of the puzzle that the player needs to manipulate.
+
+2) Gameplay:
+
+Players are presented with a set of wires that need to be unplugged in the correct order.
+They have 5 minutes to experiment with different combinations of unplugging and replugging the wires.
+The RGB LED indicates the status of each wire, helping players keep track of their progress.
+When the player successfully unplugs all wires in the correct order, the buzzer sounds a sequence corresponding to the number of wires unplugged.
+3) Node-RED Dashboard:
+
+Provides a user-friendly interface for the game master to monitor and control the game.
+Displays the countdown timer, allowing the game master to track the remaining time.
+Shows the status of each wire (plugged or unplugged) in real-time, helping the game master oversee the progress of the players.
+Features controls to start the game over, add time to the timer, and automatically solve the puzzle if needed, enhancing the flexibility and customization of the game experience.
+4) Features:
+
+Engaging Gameplay: Offers a challenging and interactive puzzle-solving experience that encourages players to strategize and think critically.
+Real-time Monitoring: Enables the game master to monitor the game's progress and intervene if necessary using the Node-RED dashboard.
+Customizable Options: Allows the game master to adjust the game settings, such as adding extra time or automatically solving the puzzle, to accommodate different play styles and preferences.
+Educational Value: Provides an opportunity for players to develop problem-solving skills and logical thinking while having fun with the game.
 
 ## Folder description :
 * ESP32: source code for the esp side (firmware).
