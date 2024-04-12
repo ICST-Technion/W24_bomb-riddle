@@ -11,7 +11,7 @@ In this proect i have built an IoT-based game. Using an ESP32 microcontroller as
 
 * **RGB LED:** Used to indicate the state of the game by providing visual feedback.
 
-* **Buzzer:** Provides auditory feedback to the player, indicating whether they correctly unplugged the wires in the right order (or how much were in the right order).
+* **Buzzer:** Provides auditory feedback to the player, indicating whether they correctly unplugged the wires in the right order (or how much were in the right order) also indicating when all wires were plugged back, announcing a new round.
 
 * **Wires:** Physical wires connected to the ESP32, representing the elements of the puzzle that the player needs to manipulate, configured to "pull-up" so their state changes when connected to the ground or unplugged.
 
@@ -19,8 +19,8 @@ In this proect i have built an IoT-based game. Using an ESP32 microcontroller as
 
 Players are presented with a set of wires that need to be unplugged in the correct order.
 They have 10 minutes to experiment with different combinations of unplugging and replugging the wires.
-The the buzzer beeps for the wires that were unplugged in the correct order helping players solve the puzzle.
-The RGB LED indicates the state of the game.
+The the buzzer beeps when all wiers are cut, indicating hoe many were unplugged in the correct order helping players solve the puzzle. The buzzer also plays a sound when all wires are plugged indicating the start of a new round.
+The RGB LED indicates the state of the game (solvd, failed and gameplay).
 When the player successfully unplugs all wires in the correct order, the led turnes green and the timer stopes.
 #### Node-RED Dashboard :
 
