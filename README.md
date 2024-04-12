@@ -31,12 +31,12 @@ Features controls to start the game over, add time to the timer, and automatical
 Also shows status of control action, including: "sending to device", "success" and "failed".
 
 ## Folder description :
-* ESP32: source code for the esp side (firmware).
-* Documentation: wiring diagram + basic operating instructions including raspberry-pi scripts for node-red and MQWTT broker.
-* Unit Tests: tests for individual hardware components (Timer, RGB led, buzzer)
-* NODE RED : json file of the node-red dashboard- including all features andconnection to MQTT server.
-* Parameters: contains description of configurable parameters. 
-* Assets: Audio files used in this project (in the node-red dashboard), 
+* **ESP32:** source code for the esp side (firmware).
+* **Documentation:** wiring diagram + basic operating instructions including raspberry-pi scripts for node-red and MQTT broker.
+* **Unit Tests:** tests for individual hardware components (Timer, RGB led, buzzer)
+* **NODE RED:** json file of the node-red dashboard- including all features andconnection to MQTT server.
+* **Parameters:** contains description of configurable parameters. 
+* **Assets:** Audio files used in this project (in the node-red dashboard), 
 
 ## Arduino/ESP32 libraries used in this project :
 * PubSubClient (by Nick O'Leary) - version 2.8
