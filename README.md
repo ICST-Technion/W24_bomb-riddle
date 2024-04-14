@@ -36,7 +36,8 @@ Also shows status of control action, including: "sending to device", "success" a
 * **Unit Tests:** tests for individual hardware components (Timer, RGB led, buzzer)
 * **NODE RED:** json file of the node-red dashboard- including all features andconnection to MQTT server.
 * **Parameters:** contains description of configurable parameters. 
-* **Assets:** Audio files used in this project (in the node-red dashboard), 
+* **Assets:** Audio files used in this project (in the node-red dashboard).
+* **POC:** Files dated to the POC presentation. 
 
 ## Arduino/ESP32 libraries used in this project :
 * PubSubClient (by Nick O'Leary) - version 2.8
