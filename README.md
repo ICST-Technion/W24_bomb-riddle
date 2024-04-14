@@ -42,7 +42,7 @@ Also shows status of control action, including: "sending to device", "success" a
 * PubSubClient (by Nick O'Leary) - version 2.8
 * LedController (by Noa Sakurajin) - version 2.0.2
 
-## Wire Diagram :
+## project poster :
 
-  
+ coming soon... 
 
