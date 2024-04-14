@@ -7,12 +7,12 @@ const int TONE_PWM_CHANNEL = 0; // PWM channel
 const int numWires = 4;
 
 const int RED_WIRE  = 5; //Red WIRE on pin 5
-const int GREEN_WIRE = 18; //Green WIRE on pin 18
-const int BLUE_WIRE  = 19; //Blue WIRE on Pin 19
+const int BLUE_WIRE = 18; //Green WIRE on pin 18
+const int GREEN_WIRE  = 19; //Blue WIRE on Pin 19
 const int YELLOW_WIRE  = 21; //Yellow WIRE on Pin 21
 
-const int wirePins[numWires] = {RED_WIRE, GREEN_WIRE, BLUE_WIRE, YELLOW_WIRE};
-const char* wireColors[numWires] = {"Red", "Green", "Blue", "Yellow"};
+const int wirePins[numWires] = {RED_WIRE, BLUE_WIRE, GREEN_WIRE, YELLOW_WIRE};
+const char* wireColors[numWires] = {"Red", "Blue", "Green", "Yellow"};
 int lastState[numWires];
 int wiresToCut[numWires] = {1, 2, 3, 4};
 int curCutOrder[4];
