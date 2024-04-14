@@ -1,2 +1,5 @@
 To open the node-red dashboard:
 * in the browser url type: localhost:8081/ui
+
+To restart MQTT service on raspberry-pi:
+* systemsctl restart mosquitto.service
