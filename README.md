@@ -42,6 +42,7 @@ Also shows status of control action, including: "sending to device", "success" a
 ## Arduino/ESP32 libraries used in this project :
 * PubSubClient (by Nick O'Leary) - version 2.8
 * LedController (by Noa Sakurajin) - version 2.0.2
+* LedC library (from ESP32 borad installletion)
 
 ## project poster :
 
